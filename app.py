@@ -78,7 +78,7 @@ def main():
 				X_Ray = img.reshape(1, 200, 200, 1)
 
 				#Pre-trained CNN Model loading
-				model = tf.keras.models.load_model("./models/Covid19_CNN_Classifier.h5")
+				model = tf.keras.models.load_model("./models/covid19_xray_detection_model.h5")
 
 				#Diagnosis (Prediction== Binary Classification)
 				diagnosis_proba = model.predict(X_Ray)
