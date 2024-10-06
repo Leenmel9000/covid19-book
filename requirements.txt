@@ -2,5 +2,5 @@ numpy
 opencv_python
 Pillow
 streamlit==1.25.0
-tensorflow==2.13.0
+tensorflow==2.13.1; python_version >= "3.7" and python_version < "3.11"
 pip==24.2
