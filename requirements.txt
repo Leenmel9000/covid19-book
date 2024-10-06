@@ -2,4 +2,4 @@ numpy
 opencv_python
 Pillow
 streamlit
-tensorflow
+tensorflow==2.13.0
